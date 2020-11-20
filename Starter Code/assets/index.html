@@ -15,17 +15,22 @@
 
 <body>
     <!---Navbar start-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!--navbar-expand-lg class enables you to see menu items when screen is not collapsed -->
+    <nav class="navbar navbar-expand-lg navbar-light flatten-bottom-padding mainNav">
         <a class="navbar-brand" href="#">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse " data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false " aria-label="Toggle navigation">
+        <!--data-target points to the menu items (#navbarSupportedContent) -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!--This gives the hamburger icon-->
             <span class="navbar-toggler-icon "></i></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+        <!--navbar-nav wrapper for the list items. ml-auto margin left auto to position the list elements to right-->
+            <ul class="navbar-nav ml-auto">
+        <!--dropdown list items-->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Plots
                     </a>
@@ -48,14 +53,14 @@
     <!---Navbar end-->
 
     <!-- Container to create grid -->
-    <div class="container">
+    <div class="container custom-container">
 
         <!-- Row -->
         <div class = "row">
             <!--This is column 1 of 2  -->
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                <div class="card">
-                    <div class="card-body">
+                    <div class="card-body flatten-margin">
                         <h5 class="title">Summary:Latitude vs. X</h5>
                         <hr>
                         <div class="row">
@@ -84,7 +89,7 @@
         <!-- This is column 2 of 2 -->
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body flatten-margin">
                         <h5 class="title">Visualizations</h5>
                     
                     <hr>
