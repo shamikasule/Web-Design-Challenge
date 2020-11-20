@@ -46,13 +46,3 @@ title{
    text-decoration: underline;
    color: #076e77; 
 }
-@media (max-width: 576px) { 
-    .viz1 {
-        width:25%
-    }
-}
-@media (min-width: 577px) { 
-    .viz1 {
-        width:50%
-    }
-}
