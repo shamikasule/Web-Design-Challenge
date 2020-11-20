@@ -1,42 +1,48 @@
-<style>
 
-  /* h1 heading tag */
-  h1 {
-    /* Put a 15-pixel margin at the bottom of the heading. */
-    margin-bottom: 30px;
-    /* Change the size of your font to 60 pixels high. */
-    font-size: 60px;
-    /* This will color the heading font white. */
+body{
+    background: lightgrey;
+}
+h3 {
     color: black;
-    /* Align the text to the center of its enclosing element (e.g. div). */
-    text-align: center;
-    /* The background of the heading element will now be black. */
-    background-color: lightgray;
-  }
+    font-size: small;
+}
 
-  .navbar {
-    padding: 10px;
-    text-align: right;
-    background: white;
-  }
-  .navbar li {
-      display: inline-block;
-      padding: 20px;
-      margin-right: 10px;
-      margin-left: 10px;
-      cursor: pointer;
-      border-radius: 3px;
+.content {
+    background: lightgray;
+}
 
-  }
-  .navbar li a {
-      color: grey;
-      text-decoration: name;
-  }
+.margin-top-80 {
+    margin-top: 80px;
+}
 
-  .header{
-      height: 200px;
-      
-  }
+ .navbar-brand { 
+    background-color: #076e77;
+    color: light-active-color;
+}
+.navbar-text{
+    color: white;
+}
 
-</style>
-/* Add your styles here */
+.content h1 { */
+    height: 50px;
+    padding: 5px;
+    color: #4d8d88;
+}
+
+.card-body{
+    margin-top:50px;
+}
+title{
+    color:#076e77;
+}
+.nav-link{
+    background-color: lightgrey
+}
+@media (max-width:600px)
+.navbar-brand{
+    background-color: #076e77;
+}
+.summary-title{
+   text-decoration: underline;
+   color: #076e77; 
+}
