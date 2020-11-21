@@ -1,52 +1,84 @@
-body{
+body {
     background: lightgrey;
 }
+
 h5 {
-    color:teal;
+    color: teal;
 }
+
 .content {
     background: lightgray;
 }
+
 .margin-top-80 {
     margin-top: 80px;
 }
-.card-body{
-    margin-top:50px;
-}
-title{
-    color:#076e77;
-}
-.navbar-light .navbar-brand {
 
+.card-body {
+    margin-top: 50px;
+}
+
+title {
+    color: #076e77;
+}
+
+.navbar-light .navbar-brand {
     background-color: #026670;
     color: white;
 }
+
 .flatten-margin {
     margin: 0px 0px 0px 0px;
 }
-.flatten-bottom-padding{
+
+.flatten-bottom-padding {
     padding-bottom: 0px;
 }
+
 .custom-container {
-    margin-top:10px;
+    margin-top: 10px;
 }
+
 @media (max-width:600px) {
     .navbar-toggler {
         background-color: #026670;
     }
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
     .viz1 {
-        width:25%
+        width: 25%
     }
     .mainNav {
         background-color: #026670;
         color: white;
     }
 }
-@media (min-width: 577px) { 
+
+@media (min-width: 577px) {
     .viz1 {
-        width:50%
+        width: 50%
     }
+    /*  .mainNav {
+        background-color: lightgray;
+    } */
+    .navbar {
+        background-color: white;
+    }
+}
+
+.dropdown-menu a:hover {
+    background-color: lightgray;
+}
+
+.navbar a:hover {
+    background-color: lightgray;
+}
+
+#main-img {
+    border: solid 3px #026670;
+}
+
+.table {
+    margin: 10px 5px 10px 10px;
 }

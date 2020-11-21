@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Latitude vs. Max Temp</title>
+    <title>Latitude vs. Cloudiness</title>
 
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -32,9 +32,9 @@
                         Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Max Temp</a>
+                        <a class="dropdown-item" href="visualization1.html">Max Temp</a>
                         <a class="dropdown-item" href="visualization2.html">Humidity</a>
-                        <a class="dropdown-item" href="visualization3.html">Cloudiness</a>
+                        <a class="dropdown-item" href="#">Cloudiness</a>
                         <a class="dropdown-item" href="visualization4.html">Wind Speed</a>
                     </div>
                 </li>
@@ -58,17 +58,16 @@
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="card">
                     <div class="card-body flatten-margin">
-                        <h5 class="title">Max Temp</h5>
+                        <h5 class="title">Cloudiness</h5>
                         <hr>
                         <div class="row">
                             <div>
                                 <!--class="col-lg-4 col-md-4 col-sm-4 col-xs-3"-->
-                                <img class="card-img" src="images/Fig1.png" alt="Card image cap">
+                                <img class="card-img" src="images/Fig3.png" alt="Card image cap">
                             </div>
                             <!--class="col-lg-4 col-md-4 col-sm-4 col-xs-3"-->
                             <div>
-                                As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This maybe
-                                due to the tilt of the earth at the time of the year this data was gathered.
+                                As per this chart, cloudiness seems to be suppressed near equator in cities in northern hemisphere. Whereas there seems to be more cloud cover for cities in southern hemisphere that are near equator.
                             </div>
                         </div>
                     </div>
@@ -86,7 +85,7 @@
                             <div class="viz1">
                                 <!--Adding html webpage link to image file  -->
                                 <a href="visualization1.html" target="_blank">
-                                    <img class="card-img" src="images/Fig1.png" alt="City Latitude vs Max Temp" id="main-img">
+                                    <img class="card-img" src="images/Fig1.png" alt="City Latitude vs Max Temp">
                                 </a>
                             </div>
                             <div class="viz1">
@@ -98,7 +97,7 @@
                             <div class="viz1">
                                 <!--Adding html webpage link to image file  -->
                                 <a href="visualization3.html" target="_blank">
-                                    <img class="card-img" src="images/Fig3.png" alt="City Latitude vs Cloudiness">
+                                    <img class="card-img" src="images/Fig3.png" alt="City Latitude vs Cloudiness" id="main-img">
                                 </a>
                             </div>
                             <div class="viz1">
