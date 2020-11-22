@@ -3,7 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Dashboard Analysis](#dashboard analysis)
+* [Analysis](#analysis)
 
 ## General info
 This an HTML/CSS project.The project involves creating a dashboared to visualize the weather data analysis.
