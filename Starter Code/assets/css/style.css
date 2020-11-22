@@ -49,6 +49,9 @@ title {
     .viz1 {
         width: 25%
     }
+    .viz2 {
+        width:100%;
+    }
     .mainNav {
         background-color: #026670;
         color: white;
@@ -58,6 +61,9 @@ title {
 @media (min-width: 577px) {
     .viz1 {
         width: 50%
+    }
+    .viz2 {
+        width:50%;
     }
     /*  .mainNav {
         background-color: lightgray;
@@ -81,4 +87,39 @@ title {
 
 .table {
     margin: 10px 5px 10px 10px;
+}
+.footer {
+    background-color: #026670;
+    width:100%;
+    height:5px;
+    margin: 50px 0px 0px 0px;
+}
+.header {
+    background-color: white;
+    
+}
+.header h5, p{
+    margin: 10px 0px 0px 20px;
+}
+.header p{
+    font-size:8pt;
+}
+.data-img p{
+    text-align: center;
+    color: teal;
+    font-size:12pt;
+    font-weight: bold;
+}
+.tableformat {
+    background-color: white;
+    width:100%;
+   /* margin:auto;*/
+    font-size:12px;
+    border:1px solid white;
+    border-collapse:collapse; 
+}
+.data-headers {
+    background-color: white;
+    margin-top: 10px;
+
 }
